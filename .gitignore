@@ -2,8 +2,12 @@
 .idea/
 
 # specific files and all images
-daniellanapolitano_resume
+daniellanapolitano_resume.pdf
 images/
+
+# libraries
+/jquery.anchor.js
 
 # other
 *.zip
+

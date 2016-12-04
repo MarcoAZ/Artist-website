@@ -1,0 +1,134 @@
+.container
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+a:link
+{
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
+
+.squirrel
+{
+	float: left;
+	margin-left: 40px;
+	padding-top: 30px;
+	width: 203px;
+	height: 179px;
+}
+
+.header
+{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 220px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 800px;
+}
+
+.header h1
+{
+	font-size: 40pt;
+	font-weight: 700;
+	margin-bottom: -30px;
+}
+
+.header h3
+{
+	font-weight: 400;
+	color: #8e8d8d;
+	font-size: 28pt;
+}
+
+.header h1 a
+{
+	text-decoration: none;
+}
+
+.nav
+{
+	float: left;
+	width: 200px;
+	padding-right: 24px;
+	position: fixed;
+}
+
+/*.nav span:hover
+{
+	border-bottom: 4px solid #F104FF;
+}*/
+
+.nav p
+{
+	padding-bottom: 10px;
+}
+
+.nav li
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;	
+	list-style: none;
+	font-size: 16pt;
+}
+
+.nav li a
+{
+	text-decoration: none;
+}
+
+.nav ul ul
+{
+	display: none;
+	margin-top: -50px;
+}
+
+.nav ul ul li a
+{
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	font-size: 12pt;
+	color: #8e8d8d;
+}
+
+.nav ul ul li a:hover
+{
+	color: black;
+}
+
+.topLi
+{
+	margin-top: -49px;
+}
+
+.rightOfNavClasses
+{
+	font-family: 'Crimson Text', serif;
+	border-bottom: 4px solid #F104FF;
+	margin-left: 250px;
+}
+
+/*.slideshow
+{
+	border: 1px solid black;
+}*/
+
+.footer
+{
+	font-family: 'Crimson Text', serif;
+	font-size: 14px;
+	margin-left: 220px;
+	color: #8e8d8d;
+	padding-left: 30px;
+}
+
+.bottomLinks
+{
+	font-size: 16px;
+	float: right;
+}

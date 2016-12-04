@@ -1,0 +1,20 @@
+/*this is a generic css stylesheet for every project page*/
+
+.projectHeader
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 27pt;
+	font-weight: 700;
+	margin-top: 10px;
+	border-bottom: 4px solid #F104FF;
+}
+
+.projLayout img
+{
+	border: 1px solid black;
+}
+
+.images
+{
+	text-align: center;
+}
