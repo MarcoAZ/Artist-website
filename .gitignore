@@ -1,0 +1,9 @@
+# webstorm
+.idea/
+
+# specific files and all images
+daniellanapolitano_resume
+images/
+
+# other
+*.zip
