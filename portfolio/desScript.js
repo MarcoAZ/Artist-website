@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-	toggleDisplay(designNavLinks);
+	toggleDisplay($('#designNavLinks'));
 	toggleBorder(designNavSpan);
-})
+});

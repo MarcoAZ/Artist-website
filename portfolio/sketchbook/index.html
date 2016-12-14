@@ -3,55 +3,86 @@
 
 <head>
 	<title>Daniella Napolitano: Sketchbook</title>
-<!-- 	<meta name="description" content='Daniella Napolitano is a professional artist from Little Rock, AR'> -->
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="../../images/favicon.ico">
-	<link href="../../home.css" rel="stylesheet" type="text/css" />
-	<link href="../projectPage.css" rel="stylesheet" type="text/css" />
+
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="../../jquery.anchor.js"></script>
 	<script type="text/javascript" src="../../portfolio.js"></script>
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link href="../../home.css" rel="stylesheet" type="text/css" />
+	<link href="../projectPage.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid">
+		<!--Mobile nav bar-->
+		<nav class="navbar navbar-default navbar-static-top visible-xs-block visible-sm-block">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img alt="Squirrel" src="../../images/squirrel_mobile.jpg" height="30" width="30">
+					</a>
+					<p class="navbar-text">Daniella Napolitano</p>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="mobile-collapse">
+					<ul class="nav navbar-nav" id="mobile-nav"></ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<!--Header for Medium devices and greater-->
+		<div class="visible-md-block visible-lg-block">
+			<div class="squirrel">
+				<a href="../../"><img src="../../images/squirrel_web.jpg" /></a>
+			</div>
+
+			<div class="header">
+				<h1><a href="../../">DANIELLA A. NAPOLITANO</a></h1>
+				<h3>Art, Illustration, + Design</h3>
+			</div>
+		</div>
 		<a id="top" class="anchor" name="top"></a>
 
-		<div class="squirrel">
-			<a href="../../"><img src="../../images/squirrel_web.jpg" /></a>
-		</div>	
-
-		<div class="header">
-			<h1><a href="../../">DANIELLA A. NAPOLITANO</a></h1>
-			<h3>Art, Illustration, + Design</h3>
-		</div>
-
-		<div class="nav">
+		<!--Nav for Medium Devices and greater-->
+		<div class="nav-desktop visible-md-block visible-lg-block">
 			<ul>
-				<li id="artNavTab"> <p><span id="artNavSpan">ART</span></p>
-					<ul id="artNavLinks">
-
-					</ul>	
+				<li id="artNavTab" class="group">
+					<p><span id="artNavSpan">ART</span></p>
+					<ul id="artNavLinks"></ul>
 				</li>
 
-				<li id="designNavTab"> <p><span id="designNavSpan">DESIGN</span></p> 
-					<ul id="designNavLinks">
-
-					</ul>
+				<li id="designNavTab" class="group">
+					<p><span id="designNavSpan">DESIGN</span></p>
+					<ul id="designNavLinks"></ul>
 				</li>
 
-				<li id="illustNavTab"> <p><span id="illustNavSpan">ILLUSTRATION</span> </p>
-					<ul id="illustNavLinks">
-
-					</ul>
+				<li id="illustNavTab" class="group">
+					<p><span id="illustNavSpan">ILLUSTRATION</span> </p>
+					<ul id="illustNavLinks"></ul>
 				</li>
-				<li id="commNavTab"> <p><span id="commNavSpan">COMMISSIONS</span> </p>
-					<ul id="commNavLinks">
-
-					</ul>
+				<li id="commNavTab" class="group">
+					<p><span id="commNavSpan">COMMISSIONS</span> </p>
+					<ul id="commNavLinks"></ul>
 				</li>
 				
 				<li> <p><span id="shopSpan"><a href="https://www.etsy.com/shop/ghostcaptaincreative" target="_blank">ETSY SHOP</a></span></p></li>
@@ -70,25 +101,25 @@
 				<p>Samples from various sketchbooks.</p>
 
 				<p class="images">
-					<img src="../../images/art/sketchbook1.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook1.jpg" />
 
-					<img src="../../images/art/sketchbook2.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook2.jpg" />
 
-					<img src="../../images/art/sketchbook3.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook3.jpg" />
 
-					<img src="../../images/art/sketchbook4.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook4.jpg" />
 
-					<img src="../../images/art/sketchbook5.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook5.jpg" />
 
-					<img src="../../images/art/sketchbook6.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook6.jpg" />
 
-					<img src="../../images/art/sketchbook7.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook7.jpg" />
 
-					<img src="../../images/art/sketchbook8.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook8.jpg" />
 
-					<img src="../../images/art/sketchbook9.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook9.jpg" />
 
-					<img src="../../images/art/sketchbook10.jpg" />
+					<img class="img-responsive" src="../../images/art/sketchbook10.jpg" />
 				</p>
 			</div>
 
@@ -96,7 +127,7 @@
 
 		<div class="footer">
 			<p>Daniella is an artist and freelance designer located in Little Rock, AR. She is available for commissioned art and freelance design work. She studied Studio Art and Graphic Design at American University in Washington, DC.</p>
-			<p>©2014 Daniella A. Napolitano. All Rights Reserved. <span class="bottomLinks"> <a href="../../">Home</a> | <a id="anchor1" class="anchorLink" rel="" href="#top">Top</a> </span></p>
+			<p>©2014 Daniella A. Napolitano. All Rights Reserved. <span class="bottomLinks visible-md-block visible-lg-block"> <a href="../../">Home</a> | <a id="anchor1" class="anchorLink" rel="" href="#top">Top</a> </span></p>
 		</div>
 
 	</div>

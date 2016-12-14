@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-	toggleDisplay(illustNavLinks);
+	toggleDisplay($('#illustNavLinks'));
 	toggleBorder(illustNavSpan);
-
-})
+});

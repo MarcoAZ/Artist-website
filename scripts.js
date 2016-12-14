@@ -7,14 +7,14 @@
  var pinkBorderBottom = "4px solid rgb(241, 4, 255)";
 
 $(function() {
-	$('.nav').on('click', '.group', function () {
+	$('.nav-desktop').on('click', '.group', function () {
 		//display
 		toggleDisplay($(this).find('ul:first'));
 		//don't display others
 		closeOtherNavLinks($(this));
 	});
 
-	$('.nav').on('mouseenter mouseleave', 'span', function (event) {
+	$('.nav-desktop').on('mouseenter mouseleave', 'span', function (event) {
 		toggleBorder($(this).context);
 	});
 

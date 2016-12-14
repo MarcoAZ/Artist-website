@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-	toggleDisplay(commNavLinks);
+	toggleDisplay($('#commNavLinks'));
 	toggleBorder(commNavSpan);
 
 })
