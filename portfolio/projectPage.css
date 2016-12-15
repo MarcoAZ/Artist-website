@@ -12,4 +12,11 @@
 .projLayout img
 {
 	border: 1px solid black;
+	vertical-align: unset;
+	display: inline-block;
+}
+
+.images
+{
+	text-align: center;
 }
