@@ -1,8 +1,9 @@
 # Artist-website
 Source code for Daniella Napolitano's artist website
 
-## Project Requirements
-4. Add Latest Projects/Reorder Categories
+## TODO
+1. Add Latest Projects/Reorder Categories
+2. 404 page
 
 ## Changes Completed
 ~~1. Make Mobile Friendly:  Use Bootstrap media queries to resize elements for smaller screens~~
